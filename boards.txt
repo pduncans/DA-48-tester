@@ -2,16 +2,7 @@
 
 
 menu.chip=Chip
-menu.clock=Clock Speed
-menu.millis=millis()/micros() timer (TCB2 recommended)
-menu.bodvoltage=BOD level if enabled (Bootload burn req'd)
-menu.bodmode=BOD Mode Active/Sleeping (Bootload burn req'd)
-menu.eesave=Save EEPROM (Bootload burn req'd)
-menu.resetpin=Reset pin function (Bootload burn req'd)
-menu.startuptime=Startup Time (Bootload burn req'd)
-menu.bootloaderusart=Bootloader Serial Port (Bootload burn req'd)
-menu.timeout=Bootloader Timeout (Bootload burn req'd)
-menu.appspm=Flash Writing
+
 
 ##############################################################
 
@@ -96,61 +87,13 @@ avrda.menu.appspm.full.bootloader.appspm=-DSPM_FROM_APP=-1
 
 
 # Chip (pins and memory size)
-avrda.menu.chip.128DA28=AVR128DA28
-avrda.menu.chip.128DA28.build.mcu=avr128da28
-avrda.menu.chip.128DA28.upload.maximum_size=131072
-avrda.menu.chip.128DA28.upload.maximum_data_size=16384
-avrda.menu.chip.128DA28.build.variant=28pin-standard
-avrda.menu.chip.128DA32=AVR128DA32
-avrda.menu.chip.128DA32.build.mcu=avr128da32
-avrda.menu.chip.128DA32.upload.maximum_size=131072
-avrda.menu.chip.128DA32.upload.maximum_data_size=16384
-avrda.menu.chip.128DA32.build.variant=32pin-standard
+
 avrda.menu.chip.128DA48=AVR128DA48
 avrda.menu.chip.128DA48.build.mcu=avr128da48
 avrda.menu.chip.128DA48.upload.maximum_size=131072
 avrda.menu.chip.128DA48.upload.maximum_data_size=16384
 avrda.menu.chip.128DA48.build.variant=48pin-standard
-avrda.menu.chip.128DA64=AVR128DA64
-avrda.menu.chip.128DA64.build.mcu=avr128da64
-avrda.menu.chip.128DA64.upload.maximum_size=131072
-avrda.menu.chip.128DA64.upload.maximum_data_size=16384
-avrda.menu.chip.128DA64.build.variant=64pin-standard
-avrda.menu.chip.64DA28=AVR64DA28
-avrda.menu.chip.64DA28.build.mcu=avr64da28
-avrda.menu.chip.64DA28.upload.maximum_size=65536
-avrda.menu.chip.64DA28.upload.maximum_data_size=8192
-avrda.menu.chip.64DA28.build.variant=28pin-standard
-avrda.menu.chip.64DA32=AVR64DA32
-avrda.menu.chip.64DA32.build.mcu=avr64da32
-avrda.menu.chip.64DA32.upload.maximum_size=65536
-avrda.menu.chip.64DA32.upload.maximum_data_size=8192
-avrda.menu.chip.64DA32.build.variant=32pin-standard
-avrda.menu.chip.64DA48=AVR64DA48
-avrda.menu.chip.64DA48.build.mcu=avr64da48
-avrda.menu.chip.64DA48.upload.maximum_size=65536
-avrda.menu.chip.64DA48.upload.maximum_data_size=8192
-avrda.menu.chip.64DA48.build.variant=48pin-standard
-avrda.menu.chip.64DA64=AVR64DA64
-avrda.menu.chip.64DA64.build.mcu=avr64da64
-avrda.menu.chip.64DA64.upload.maximum_size=65536
-avrda.menu.chip.64DA64.upload.maximum_data_size=8192
-avrda.menu.chip.64DA64.build.variant=64pin-standard
-avrda.menu.chip.32DA28=AVR32DA28
-avrda.menu.chip.32DA28.build.mcu=avr32da28
-avrda.menu.chip.32DA28.upload.maximum_size=32768
-avrda.menu.chip.32DA28.upload.maximum_data_size=4096
-avrda.menu.chip.32DA28.build.variant=28pin-standard
-avrda.menu.chip.32DA32=AVR32DA32
-avrda.menu.chip.32DA32.build.mcu=avr32da32
-avrda.menu.chip.32DA32.upload.maximum_size=32768
-avrda.menu.chip.32DA32.upload.maximum_data_size=4096
-avrda.menu.chip.32DA32.build.variant=32pin-standard
-avrda.menu.chip.32DA48=AVR32DA48
-avrda.menu.chip.32DA48.build.mcu=avr32da48
-avrda.menu.chip.32DA48.upload.maximum_size=32768
-avrda.menu.chip.32DA48.upload.maximum_data_size=4096
-avrda.menu.chip.32DA48.build.variant=48pin-standard
+
 
 # Clock Speed + Source
 avrda.menu.clock.24internal=24 MHz internal
