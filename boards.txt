@@ -67,32 +67,6 @@ avrda.bootloader.pymcuprogstring=-aerase
 avrda.menu.appspm.no=Disabled
 avrda.menu.appspm.no.bootloader.appspm=
 avrda.menu.appspm.no.bootloader.BOOTSIZE=0x00
-avrda.menu.appspm.16plus=Above 16k
-avrda.menu.appspm.16plus.bootloader.appspm=-DSPM_FROM_APP=32
-avrda.menu.appspm.16plus.bootloader.CODESIZE=32
-avrda.menu.appspm.24plus=Above 24k
-avrda.menu.appspm.24plus.bootloader.appspm=-DSPM_FROM_APP=48
-avrda.menu.appspm.24plus.bootloader.CODESIZE=48
-avrda.menu.appspm.32plus=Above 32k (AVR128/64 only)
-avrda.menu.appspm.32plus.bootloader.appspm=-DSPM_FROM_APP=64
-avrda.menu.appspm.32plus.bootloader.CODESIZE=64
-avrda.menu.appspm.48plus=Above 48k (AVR128/64 only)
-avrda.menu.appspm.48plus.bootloader.appspm=-DSPM_FROM_APP=96
-avrda.menu.appspm.48plus.bootloader.CODESIZE=96
-avrda.menu.appspm.56plus=Above 56k (AVR128/64 only)
-avrda.menu.appspm.56plus.bootloader.appspm=-DSPM_FROM_APP=112
-avrda.menu.appspm.56plus.bootloader.CODESIZE=112
-avrda.menu.appspm.64plus=Above 64k (AVR128 only)
-avrda.menu.appspm.64plus.bootloader.appspm=-DSPM_FROM_APP=128
-avrda.menu.appspm.64plus.bootloader.CODESIZE=128
-avrda.menu.appspm.96plus=Above 96k (AVR128 only)
-avrda.menu.appspm.96plus.bootloader.appspm=-DSPM_FROM_APP=192
-avrda.menu.appspm.96plus.bootloader.CODESIZE=192
-avrda.menu.appspm.112plus=Above 112k (AVR128 only)
-avrda.menu.appspm.112plus.bootloader.appspm=-DSPM_FROM_APP=224
-avrda.menu.appspm.112plus.bootloader.CODESIZE=224
-avrda.menu.appspm.full=Anywhere
-avrda.menu.appspm.full.bootloader.appspm=-DSPM_FROM_APP=-1
 
 
 # Chip (pins and memory size)
@@ -129,10 +103,6 @@ avrda.menu.resetpin.reset.bootloader.resetpinbits=10
 # TCD0 and RTC not yet supported
 avrda.menu.millis.tcb2=TCB2
 
-#avrda.menu.millis.rtc=RTC (no micros)
-#avrda.menu.millis.rtcxtal=RTC w/w32.768 kHz ext. xtal, no micros
-#avrda.menu.millis.rtcxosc=RTC w/w32.768 kHz ext. osc no micros
-avrda.menu.millis.disabled=Disabled
 avrda.build.millis=-DMILLIS_USE_TIMER{build.millistimer}
 
 avrda.menu.millis.tcb2.build.millistimer=B2
