@@ -2,8 +2,8 @@
 
 
 menu.chip=Chip
-menu.clock=Clock Speed
-menu.millis=millis()/micros() timer (TCB2 recommended)
+#menu.clock=Clock Speed
+#menu.millis=millis()/micros() timer (TCB2 recommended)
 menu.bodvoltage=BOD level if enabled (Bootload burn req'd)
 menu.bodmode=BOD Mode Active/Sleeping (Bootload burn req'd)
 menu.eesave=Save EEPROM (Bootload burn req'd)
