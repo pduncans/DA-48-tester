@@ -3,17 +3,7 @@
 
 menu.chip=Chip
 
-menu.mode=Defaults
 
-
-avrda.menu.Defaults.bodvoltage=BOD level if enabled (Bootload burn req'd)
-avrda.menu.Defaults.bodmode=BOD Mode Active/Sleeping (Bootload burn req'd)
-avrda.menu.Defaults.eesave=Save EEPROM (Bootload burn req'd)
-avrda.menu.Defaults.resetpin=Reset pin function (Bootload burn req'd)
-avrda.menu.Defaults.startuptime=Startup Time (Bootload burn req'd)
-avrda.menu.Defaults.bootloaderusart=Bootloader Serial Port (Bootload burn req'd)
-avrda.menu.Defaults.timeout=Bootloader Timeout (Bootload burn req'd)
-avrda.menu.Defaults.appspm=Flash Writing
 ##############################################################
 
 # BOARD NAMES
@@ -65,9 +55,8 @@ avrda.bootloader.pymcuprogstring=-aerase
 ################################
 
 # App SPM
-avrda.menu.appspm.no=Disabled
-avrda.menu.appspm.no.bootloader.appspm=
-avrda.menu.appspm.no.bootloader.BOOTSIZE=0x00
+avrda.bootloader.appspm=
+avrda.bootloader.BOOTSIZE=0x00
 
 
 # Chip (pins and memory size)
@@ -80,40 +69,40 @@ avrda.menu.chip.128DA48.build.variant=48pin-standard
 
 
 # Clock Speed + Source
-avrda.menu.clock.24internal=24 MHz internal
-avrda.menu.clock.24internal.build.f_cpu=24000000L
-avrda.menu.clock.24internal.build.speed=24
-avrda.menu.clock.24internal.build.clocksource=0
+#avrda.24internal=24 MHz internal
+avrda.build.f_cpu=24000000L
+avrda.build.speed=24
+avrda.build.clocksource=0
 
 
 # BrownOut Detect Options
-avrda.menu.bodvoltage.1v9=1.9V
-avrda.menu.bodvoltage.1v9.bootloader.bodlevbits=000
+#avrda.build.1v9=1.9V
+avrda.bootloader.bodlevbits=000
 
 
 # EESAVE option
-avrda.menu.eesave.enable=EEPROM retained
-avrda.menu.eesave.enable.bootloader.eesavebit=1
+#avrda.menu.chip.eesave.enable=EEPROM retained
+avrda.bootloader.eesavebit=1
 
 
 # Reset pin as GPIO option
-avrda.menu.resetpin.reset=Hardware Reset (recommended)
-avrda.menu.resetpin.reset.bootloader.resetpinbits=10
+avrda.menu.chip.resetpin.reset=Hardware Reset (recommended)
+avrda.bootloader.resetpinbits=10
 
 # millis/micros timing source
 # TCD0 and RTC not yet supported
-avrda.menu.millis.tcb2=TCB2
+#avrda.menu.chip.millis.tcb2=TCB2
 
 avrda.build.millis=-DMILLIS_USE_TIMER{build.millistimer}
 
-avrda.menu.millis.tcb2.build.millistimer=B2
+avrda.build.millistimer=B2
 
 #avrda.menu.millis.rtc.build.millistimer=RTC
 #avrda.menu.millis.rtcxtal.build.millistimer=RTC_XTAL
 #avrda.menu.millis.rtcxosc.build.millistimer=RTC_XOSC
-avrda.menu.millis.disabled.build.millistimer=NONE
+#avrda.build.millistimer=NONE
 
 # Startup Time
-avrda.menu.startuptime.8= 8ms
-avrda.menu.startuptime.8.bootloader.SYSCFG1=0x04
+#avrda.startuptime.8= 8ms
+avrda.bootloader.SYSCFG1=0x04
 
