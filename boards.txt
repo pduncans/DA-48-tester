@@ -3,15 +3,17 @@
 
 menu.chip=Chip
 
-menu.default.bodvoltage=BOD level if enabled (Bootload burn req'd)
-menu.default.bodmode=BOD Mode Active/Sleeping (Bootload burn req'd)
-menu.default.eesave=Save EEPROM (Bootload burn req'd)
-menu.default.resetpin=Reset pin function (Bootload burn req'd)
-menu.default.startuptime=Startup Time (Bootload burn req'd)
-menu.bootloaderusart=Bootloader Serial Port (Bootload burn req'd)
-menu.timeout=Bootloader Timeout (Bootload burn req'd)
-menu.default.appspm=Flash Writing
+menu.mode=Defaults
 
+
+avrda.menu.Defaults.bodvoltage=BOD level if enabled (Bootload burn req'd)
+avrda.menu.Defaults.bodmode=BOD Mode Active/Sleeping (Bootload burn req'd)
+avrda.menu.Defaults.eesave=Save EEPROM (Bootload burn req'd)
+avrda.menu.Defaults.resetpin=Reset pin function (Bootload burn req'd)
+avrda.menu.Defaults.startuptime=Startup Time (Bootload burn req'd)
+avrda.menu.Defaults.bootloaderusart=Bootloader Serial Port (Bootload burn req'd)
+avrda.menu.Defaults.timeout=Bootloader Timeout (Bootload burn req'd)
+avrda.menu.Defaults.appspm=Flash Writing
 ##############################################################
 
 # BOARD NAMES
