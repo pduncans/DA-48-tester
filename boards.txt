@@ -18,11 +18,7 @@ menu.appspm=Flash Writing
 # BOARD NAMES
 
 avrda.name=AVR DA-series (no bootloader)
-avrdb.name=AVR DB-series (no bootloader)
-#avrdd.name=AVR DD-series (no bootloader)
-avrdaopti.name=AVR DA-series (Optiboot)
-avrdbopti.name=AVR DB-series (Optiboot)
-#avrddopti.name=AVR DD-series (Optiboot)
+
 
 
 ##############################################################
