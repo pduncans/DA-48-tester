@@ -17,7 +17,7 @@ menu.appspm=Flash Writing
 
 # BOARD NAMES
 
-avrda.name=AVR DA-series (no bootloader)
+avrda.name=AVR DA-series
 
 
 
@@ -119,8 +119,7 @@ avrda.menu.bodvoltage.1v9.bootloader.bodlevbits=000
 # EESAVE option
 avrda.menu.eesave.enable=EEPROM retained
 avrda.menu.eesave.enable.bootloader.eesavebit=1
-avrda.menu.eesave.disable=EEPROM not retained
-avrda.menu.eesave.disable.bootloader.eesavebit=0
+
 
 # Reset pin as GPIO option
 avrda.menu.resetpin.reset=Hardware Reset (recommended)
@@ -145,7 +144,5 @@ avrda.menu.millis.disabled.build.millistimer=NONE
 
 # Startup Time
 avrda.menu.startuptime.8= 8ms
-
-
 avrda.menu.startuptime.8.bootloader.SYSCFG1=0x04
 
